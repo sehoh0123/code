@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 20
+names: ['Trowel', 'basin', 'board', 'brick', 'bricks', 'concrete bag', 'dump truck', 'excavator', 'long handle float', 'mixed', 'pile', 'plant', 'plasterer shoe', 'plastic barrel', 'rainboot', 'roller', 'square can', 'steel', 'stud', 'wood']
+
+roboflow:
+  workspace: project-veypw
+  project: construction-materials-c2lng
+  version: 6
+  license: Private
+  url: https://app.roboflow.com/project-veypw/construction-materials-c2lng/6
